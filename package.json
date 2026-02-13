@@ -1,0 +1,21 @@
+{
+  "name": "europe-travel-map",
+  "version": "1.0.0",
+  "description": "Paris/London Travel Map - Tourist Guide",
+  "main": "server-sqlite.js",
+  "scripts": {
+    "start": "node server-sqlite.js",
+    "dev": "node server-sqlite.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "helmet": "^8.0.0",
+    "express-rate-limit": "^7.4.0"
+  },
+  "optionalDependencies": {
+    "better-sqlite3": "^11.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
