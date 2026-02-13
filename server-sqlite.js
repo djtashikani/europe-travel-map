@@ -13,6 +13,7 @@ app.use(helmet({
         directives: {
             defaultSrc: ["'self'"],
             scriptSrc: ["'self'", "'unsafe-inline'", "unpkg.com", "places.googleapis.com"],
+            scriptSrcAttr: ["'unsafe-inline'"],
             styleSrc: ["'self'", "'unsafe-inline'", "unpkg.com"],
             imgSrc: ["'self'", "data:", "*.tile.openstreetmap.org", "unpkg.com"],
             connectSrc: ["'self'", "nominatim.openstreetmap.org", "places.googleapis.com"],
